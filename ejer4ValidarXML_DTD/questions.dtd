@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT questions (question)+>
+<!ELEMENT question (type,text,answer*,option*)>
+
+<!ATTLIST question id ID #REQUIRED>
+
+<!ELEMENT type (#PCDATA|radio|checkbox|text|select|multiple)*>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT answer (#PCDATA)>
+<!ELEMENT option (#PCDATA)>
