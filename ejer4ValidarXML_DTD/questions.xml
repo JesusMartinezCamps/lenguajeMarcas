@@ -67,9 +67,9 @@
     <question id='p9'>
         <type>radio</type>
         <text>¿Que personaje le firma el libro a Harrison Ford en la tercera parte de Indiana Jones?</text>
-        <option >hitler</option>
-        <option >samuel L.Jackson,</option>
-        <option >brad pitt</option>
+        <answer >hitler</answer>
+        <answer >samuel L.Jackson,</answer>
+        <answer >brad pitt</answer>
     </question>
     <question id='p10'>
         <type>radio</type>
